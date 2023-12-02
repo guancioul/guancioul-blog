@@ -3,6 +3,23 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Student at Artificial Intelligence Lab (AILab), CCU
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## Experience
+
+* Trend Micro 一 Engineer (2022/9 - )
+    * Offer received.
+
+* College Admissions Committee 一 Web Developer (Present)
+
+## Education
+
+* M.Eng. Electrical Engineering, National Chung Chang University(Present)
+
+* B.Eng. Department of Computer Science and Information Engineering, National Ilan University (2016 ~ 2020) (Graduated)
+
+## Github
+![Guancioul's GitHub stats](https://github-readme-stats.vercel.app/api?username=guancioul&show_icons=true&theme=gruvbox)
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guancioul&layout=compact&theme=gruvbox&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)

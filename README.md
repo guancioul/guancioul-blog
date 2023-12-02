@@ -25,3 +25,15 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 - [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
 - [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
 - [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+
+## How to run
+
+bundle install
+bundle exec jekyll serve
+
+## 待po文章
+1. 演算法的部分還有兩篇文章要改
+2. IT鐵人賽的文章之後要搬過來這邊
+3. freeCodeCamp的文章整理
+4. 論文的文章
+5. hackmd裡面的文章
