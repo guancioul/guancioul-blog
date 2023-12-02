@@ -3,18 +3,18 @@ permalink: /about/
 title: "About"
 ---
 
-Student at Artificial Intelligence Lab (AILab), CCU
+Software Engineer in TrendMicro.
 
 ## Experience
 
 * Trend Micro 一 Engineer (2022/9 - )
     * Offer received.
 
-* College Admissions Committee 一 Web Developer (Present)
+* College Admissions Committee 一 Web Developer (2020 ~ 2022)
 
 ## Education
 
-* M.Eng. Electrical Engineering, National Chung Chang University(Present)
+* M.Eng. Electrical Engineering, National Chung Chang University(2020 ~ 2022) (Graduated)
 
 * B.Eng. Department of Computer Science and Information Engineering, National Ilan University (2016 ~ 2020) (Graduated)
 

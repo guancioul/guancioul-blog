@@ -14,11 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Gauncioul
-email: b0543028@ems.niu.edu.tw
+email: guancioul@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Empowering Curiosity, Inspiring Discovery: Your Gateway to a World of Knowledge
+  Welcome to our digital realm, where curiosity knows no bounds, and discovery is the ultimate thrill. Unveil the secrets of the universe, unravel the mysteries of technology, explore the depths of human wisdom, and embark on a journey of learning and enlightenment.
+  Our website is your trusted guide through the endless corridors of knowledge. With a diverse array of articles, resources, and insights, we are your go-to destination for expanding your horizons. Whether you're a seasoned scholar or a passionate learner, our content will ignite your curiosity and fuel your pursuit of wisdom.
+  Join our community of inquisitive minds as we delve into the fascinating realms of science, technology, culture, and beyond. Our mission is simple: to empower you with the information you need to navigate the complexities of our world and inspire you to become a lifelong explorer.
+  Get ready to embark on a transformative journey of discovery. Welcome to a world where knowledge knows no limits, and every click opens a door to a new adventure.
 twitter_username: username
 github_username: guancioul
 minimal_mistakes_skin: dark
@@ -60,7 +62,7 @@ plugins:
 author:
   name   : "Guancioul"
   avatar : "/assets/images/personal-photo200.jpg"
-  bio    : "紀錄並且分享學習內容"
+  bio    : "Exploring New Knowledge and Verifying Information Through Research and Practice"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -71,9 +73,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/guancioul"
-    - label: "HackerRank"
-      icon: "fab fa-fw fa-hackerrank"
-      url: "https://www.hackerrank.com/guancioul"
+    # - label: "HackerRank"
+    #   icon: "fab fa-fw fa-hackerrank"
+    #   url: "https://www.hackerrank.com/guancioul"
     # - label: "Leetcode"
     #   icon: "fab fa-fw fa-code"
     #   url: "https://leetcode.com/guancioul"
