@@ -6,6 +6,7 @@ tags:
   - Web
   - CodeIgniter 4 
 toc: true
+published: false
 ---
 
 網路上有教很多資料庫遷移(Migrate)的方法，但是有很多我看了很久也不是很確定在講什麼，這邊稍微做個筆記整理一下我看到的方法。
