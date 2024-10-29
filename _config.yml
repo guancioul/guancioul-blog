@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Get ready to embark on a transformative journey of discovery. Welcome to a world where knowledge knows no limits, and every click opens a door to a new adventure.
 twitter_username: username
 github_username: guancioul
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Guancioul"
   avatar : "/assets/images/personal-photo200.jpg"
-  bio    : "Exploring New Knowledge and Verifying Information Through Research and Practice"
+  bio    : "Back-end engineer by day, adventure seeker always. Fitness enthusiast, breakdancer, and outdoor adventurer. Thrives in cafés and libraries. Pursuing freedom with unwavering passion."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
