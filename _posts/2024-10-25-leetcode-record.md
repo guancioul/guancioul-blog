@@ -7,6 +7,7 @@ tags:
     - Algorithm
     - Leetcode
 ---
+Recording my LeetCode journey, start with LeetCode 75
 
 # LeetCode 75
 ## Array / String
@@ -132,3 +133,86 @@ void trim(string& str) {
 {% endcapture %}
 {% include collapsible_code.html title="cpp solution" content=code %}
 
+### 238. Product of Array Except Self
+* Medium
+* 2024-11-11
+* C++, Go
+{: .notice--info}
+
+Note
+: * 一開始不知道怎麼解，就先用除的，但題目中有註明說不能用除的
+: * 研究完詳解才知道這題可以用dp，每一個位置先找左邊相️乘，再找每一個位置右邊相乘，最後把左邊跟右邊相乘的結果️✖起來
+: * [dp solution](https://leetcode.com/problems/product-of-array-except-self/solutions/3186745/best-c-3-solution-dp-space-optimization-brute-force-optimize-one-stop-solution)
+
+<b>Solution</b>
+{% capture code %}
+{% highlight cpp linenos %}
+
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int nums_size = nums.size();
+        vector<int> results(nums_size, 0);
+        int count_zero = 0;
+        int zero_index = 0;
+        int product_all = 1;
+        for(int i=0; i<nums_size; i++) {
+            if(nums[i] == 0) {
+                zero_index = i;
+                count_zero++;
+            } else {
+                product_all *= nums[i];
+            }
+        }
+        if (count_zero == 1) {
+            results[zero_index] = product_all;
+            return results;
+        } else if (count_zero > 1) {
+            return results;
+        }
+
+        for(int i=0; i<nums_size; i++) {
+            bool negative = (product_all < 0) ^ (nums[i] < 0);
+
+            int abs_dividend = abs(product_all);
+            int abs_divisor = abs(nums[i]);
+
+            int result = abs_dividend / abs_divisor;
+            if (negative) {
+                results[i] = -result;
+            } else {
+                results[i] = result;
+            }
+        }
+        return results;
+    }
+};
+
+{% endhighlight %}
+{% endcapture %}
+{% include collapsible_code.html title="cpp solution" content=code %}
+
+{% capture code %}
+{% highlight go linenos %}
+
+func productExceptSelf(nums []int) []int {
+	// dp
+	result := make([]int, len(nums))
+
+	result[0] = 1
+	for i := 1; i < len(nums); i++ {
+		result[i] = result[i-1] * nums[i-1]
+	}
+
+	right_temp := 1
+	for i := len(nums) - 1; i >= 0; i-- {
+		result[i] = result[i] * right_temp
+		right_temp = right_temp * nums[i]
+	}
+
+	return result
+}
+
+{% endhighlight %}
+{% endcapture %}
+{% include collapsible_code.html title="go solution" content=code %}
